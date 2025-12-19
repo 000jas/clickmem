@@ -166,13 +166,7 @@ MIT License - feel free to use this project for personal or commercial purposes.
 ## 👨‍💻 Author
 
 **Ojas Dhapse**
-- GitHub: [@ojasdhapse](https://github.com/ojasdhapse)
+- GitHub: [@ojasdhapse](https://github.com/000jas)
 
----
-
-## 🎉 All set to go!
-
-Enjoy capturing your digital moments! 📸
-
-*Built with ❤️ by Ojas*
+*Built with ❤️ by Ojas Dhapse*
 
