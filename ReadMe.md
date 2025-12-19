@@ -30,8 +30,6 @@ Instead of wondering *“Where did I read that article?”*, ClickMem helps you 
 
 ## 🏗️ Project Structure
 
-## 🏗️ Project Structure
-
 ```
 genathon/
 ├── extension/          # Chrome Extension
