@@ -1,14 +1,34 @@
-# ClickMem 📸
+# ClickMem 📸  
+### Memory Lane Snapshot — AI-Powered Personal Content Organizer
 
-> Capture your digital moments - A Chrome extension that automatically or manually saves web pages to your personal library.
+ClickMem is an AI-powered Chrome extension and web application that works as a **personal digital memory assistant**. It automatically captures the content you interact with online—articles, web pages, and resources—and organizes them into a smart, searchable personal library.
+
+Instead of wondering *“Where did I read that article?”*, ClickMem helps you **recall, search, and rediscover** content using keywords, summaries, and context.
+
+---
 
 ## 🌟 Features
 
-- **Auto-Capture**: Automatically capture and save pages as you browse
-- **Manual Capture**: On-demand page capture with a single click
-- **Smart Storage**: Content is processed with NLP and stored in Supabase
-- **Web Library**: View and search your captured pages in a beautiful web interface
-- **AI-Powered**: Uses Gemini AI for intelligent content analysis
+- **Automatic Content Capture** – Saves pages in the background as you browse  
+- **Manual Capture** – One-click save from the Chrome extension  
+- **AI-Powered Summaries & Tags** – Uses Gemini AI + NLP to extract meaning  
+- **Smart Search** – Find content by keyword, topic, or time  
+- **Web Dashboard** – Clean UI to browse and manage saved content  
+- **Secure Storage** – Data stored safely using Supabase  
+
+---
+
+## 🎥 Demo Videos
+
+- **Demo Video 1 – Full Project Walkthrough**  
+  🔗 [Demo Video – Full Project](https://www.linkedin.com/posts/ojas-_genathon2025-iiitn-hackathon-activity-7383555418310217729-pDLB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFaHR8oB2JfH1Pyx0lcUXWMr0gmD8CVaoQk)
+
+- **Demo Video 2 – Updated UI & New Features**  
+  🔗 [Demo Video – Updated UI](https://drive.google.com/file/d/10eFnGMDYF58Lmzme21JxspkgL5N8Vt11/view?usp=sharing)
+
+---
+
+## 🏗️ Project Structure
 
 ## 🏗️ Project Structure
 
@@ -93,12 +113,6 @@ python3 nlp_service.py
 4. Select the `extension` folder from this project
 5. The ClickMem icon should appear in your extensions
 
-## 🔧 Configuration
-
-### Getting API Keys
-
-1. **Gemini API Key**: Get from [Google AI Studio](https://makersuite.google.com/app/apikey)
-2. **Supabase**: Create project at [Supabase](https://supabase.com) and get URL + keys from Settings > API
 
 ### Environment Variables
 
