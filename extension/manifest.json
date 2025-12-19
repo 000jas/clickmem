@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "ClickMem",
+  "version": "1.0",
+  "description": "Captures web content for your personal library.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost:3001/*",
+    "http://*/*",
+    "https://*/*"
+  ],
+  
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "ClickMem - Auto Capture"
+  }
+}

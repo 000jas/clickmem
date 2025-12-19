@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClickMem</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>ClickMem</h1>
+      <p class="tagline">Capture your digital moments</p>
+    </div>
+
+    <!-- Capture Options -->
+    <div class="capture-options">
+      <!-- Auto-Capture Toggle -->
+      <div class="auto-capture-section">
+        <div class="toggle-container">
+          <div class="toggle-info">
+            <span class="toggle-label">Auto-Capture</span>
+            <span class="toggle-description">Automatically capture pages you visit</span>
+          </div>
+          <label class="toggle-switch">
+            <input type="checkbox" id="autoCaptureToggle" checked>
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Manual Capture Button -->
+      <div class="manual-capture-section">
+        <button class="btn btn-capture" id="manualCaptureBtn">
+          <span class="btn-icon">📸</span>
+          <span>Capture Current Page</span>
+        </button>
+        <p class="capture-hint">Manually save this page to your library</p>
+      </div>
+    </div>
+
+    <!-- Capture Status -->
+    <div class="status-section">
+      <div class="status-indicator" id="statusIndicator">
+        <span class="status-dot"></span>
+        <span class="status-text">Ready to capture</span>
+      </div>
+    </div>
+
+    <!-- Page Info Preview -->
+    <div class="preview-section">
+      <div class="preview-label">Current Page</div>
+      <div class="page-info">
+        <div class="page-title" id="pageTitle">Loading...</div>
+        <div class="page-url" id="pageUrl">Loading...</div>
+      </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="actions">
+      <button class="btn btn-primary" id="viewLibraryBtn">
+        <span class="btn-icon">📚</span>
+        <span>View Library</span>
+      </button>
+    </div>
+
+    <!-- Success Message -->
+    <div class="message success-message hidden" id="successMessage">
+      <span class="message-icon">✓</span>
+      <span>Page captured successfully!</span>
+    </div>
+
+    <!-- Error Message -->
+    <div class="message error-message hidden" id="errorMessage">
+      <span class="message-icon">✕</span>
+      <span id="errorText">Something went wrong</span>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <a href="#" class="footer-link" id="settingsLink">Settings</a>
+      <span class="footer-divider">•</span>
+      <a href="#" class="footer-link" id="helpLink">Help</a>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
