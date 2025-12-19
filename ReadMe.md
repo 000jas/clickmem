@@ -137,27 +137,6 @@ See `.env.example` files in `server/` and `gena-code/` directories for required 
 - **AI**: Google Gemini API
 - **Database**: Supabase (PostgreSQL)
 
-## 🔐 Security
-
-- ⚠️ **Never commit `.env` files**
-- All sensitive data is excluded via `.gitignore`
-- API keys should be kept secure and rotated regularly
-- Use `.env.example` as template only
-
-## 📝 Development
-
-```bash
-# Run tests (if available)
-npm test
-
-# Build for production
-cd gena-code
-npm run build
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
